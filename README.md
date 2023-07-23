@@ -3,13 +3,32 @@ HuggingFive is a collection of ML functions and libraries written in C and RISC-
 
 More details coming soon ...
 
-
-| Description | Author | RV config | Data types | Performance numbers for an example config | Notes |
-| ----------- | ------ | --------- | ---------- | ----------------------------------------- | ----- |
-|  |  |  |  |  |   |
-
-
-Config
-Ops
-Register utilization
-Memory size (B)
+<table>
+  <tr>
+    <td rowspan="2">Description</td>
+    <td rowspan="2">Author</td>
+    <td rowspan="2">RV config</td>
+    <td rowspan="2">Data types</td>
+    <td colspan="4">Performance numbers for an exemplary config</td>
+    <td rowspan="2">Notes</td>
+  </tr>
+  <tr>
+    <td>Config</td>
+    <td>Ops</td>
+    <td>Register utilization</td>
+    <td>Memory size (B)</td>   
+  </tr>
+  <tr>
+    <td>bla</td>
+    <td>bla</td>
+    <td>bla</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+</table>
+<!--- Note: use HTML for the table above because markdown doesn't support cell-merging --->
