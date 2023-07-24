@@ -9,19 +9,27 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
     <th rowspan="2"><b>Data types</b></td>
     <th colspan="4"><b>Performance numbers for an exemplary config</b></td>
     <th rowspan="2"><b>Notes</b></td>
-  </tr>
-  <tr>
+  </tr> <tr>
     <th><b>Config</b></td>
     <th><b>Ops</b></td>
     <th><b>Register utilization</b></td>
     <th><b>Memory size (B)</b></td>   
-  </tr>
-  <tr>
-    <td>bla</td>
-    <td>bla</td>
-    <td>bla</td>
+  </tr> <tr>
+    <td><a href='https://github.com/OpenMachine-ai/tinyfive/blob/main/layer_examples.py'>Conv2D 1x1</a></td>
+    <td>OpenMachine</td>
+    <td>RV32IF</td>
+    <td>FP32</td>
+    <td>C=32, F=32, R=6</td>
+    <td>57,953</td>
+    <td>8/31 x-regs; 21/32 f-regs</td>
     <td></td>
     <td></td>
+  </tr> <tr>
+    <td><a href='https://github.com/OpenMachine-ai/tinyfive/blob/main/layer_examples.py'>Depthwise Conv2D 3x3</a></td>
+    <td>OpenMachine</td>
+    <td>RV32IF</td>
+    <td>FP32</td>
+    <td>C=4, R=6, stride=1</td>
     <td></td>
     <td></td>
     <td></td>
@@ -38,7 +46,7 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
 
 
 ## Contributing
-Please add your functions and routines (written in assembly or C) to HuggingFive :raised_hand_with_fingers_splayed::
+Please add your functions and routines to HuggingFive :raised_hand_with_fingers_splayed::
 Simply add a link to your function in the table and submit a PR, which will get approved promptly because there are no rules and restrictions here.
 
 
