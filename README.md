@@ -1,5 +1,5 @@
 # HuggingFive :raised_hand_with_fingers_splayed:
-HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions and libraries written in C and RISC-V assembly. This includes neural network layers, activation functions, as well as entire neural networks. Think of it as a low-level HuggingFace for RISC-V assembly code.  The hope is to eventually roll all these handwritten tricks into the existing compiler toolchains (or have AI generate even better assembly code). 
+HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions and libraries written in RISC-V assembly and C. This includes neural network layers, activation functions, as well as entire neural networks. Think of it as a low-level HuggingFace for RISC-V assembly code.  The hope is to eventually roll all these handwritten tricks into the existing compiler toolchains (or have AI generate even better assembly code). 
 
 <table>
   <tr>
@@ -15,6 +15,7 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
     <th><b>Register utilization</b></td>
     <th><b>Memory size (B)</b></td>   
   </tr> <tr>
+    <!--- Conv2D 1x1 --->
     <td><a href='https://github.com/OpenMachine-ai/tinyfive/blob/main/layer_examples.py'>Conv2D 1x1</a></td>
     <td>OpenMachine</td>
     <td>RV32IF</td>
@@ -25,6 +26,7 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
     <td></td>
     <td></td>
   </tr> <tr>
+    <!--- add your entry here --->
     <td></td>
     <td></td>
     <td></td>
@@ -46,8 +48,8 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
 
 
 ## Contributing
-Please add your functions and routines to HuggingFive :raised_hand_with_fingers_splayed::
-Simply add a link to your function in the table and submit a PR, which will get approved promptly because there are no rules and restrictions here.
+Please add your functions and routines to HuggingFive :raised_hand_with_fingers_splayed:: Add a link to your function in the 
+table and submit a PR, which will get approved promptly because there are no rules here.
 
 
 More details coming soon ...
