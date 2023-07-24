@@ -25,11 +25,11 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
     <td></td>
     <td></td>
   </tr> <tr>
-    <td><a href='https://github.com/OpenMachine-ai/tinyfive/blob/main/layer_examples.py'>Depthwise Conv2D 3x3</a></td>
-    <td>OpenMachine</td>
-    <td>RV32IF</td>
-    <td>FP32</td>
-    <td>C=4, R=6, stride=1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
