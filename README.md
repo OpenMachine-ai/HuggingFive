@@ -20,7 +20,7 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
     <td>OpenMachine</td>
     <td>RV32IF</td>
     <td>FP32</td>
-    <td>C=32, F=32, R=6</td>
+    <td>C=32, F=32, R=6x6</td>
     <td>57,953</td>
     <td>8/31 x-regs; 21/32 f-regs</td>
     <td></td>
