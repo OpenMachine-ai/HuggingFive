@@ -74,8 +74,8 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
 - MACs : number of fused multiply-accumulate operations required by the neural-network layer (can be used as a lower-bound for total number of ops; this number ignores possible savings from zero-padding for conv-layers)  
 
 
-## Contributing
-Please add your functions and routines to HuggingFive :raised_hand_with_fingers_splayed:: Add a link to your function in the 
+## Contribute
+Please add your functions and routines to HuggingFive :raised_hand_with_fingers_splayed:: Add a link to your code in the 
 table and submit a PR, which will get approved promptly because there are no rules here.
 
 
