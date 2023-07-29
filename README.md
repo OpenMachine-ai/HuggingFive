@@ -21,7 +21,7 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
     <td>OpenMachine</td>
     <td>RV32IF</td>
     <td>FP32</td>
-    <td>C=32, F=32, R=6x6</td>
+    <td>C=32, F=32, R=6</td>
     <td>C F R<sup>2</sup> = 36,864</td>
     <td>57,953</td>
     <td>8/31 x-regs, 21/32 f-regs</td>
@@ -33,7 +33,7 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
     <td>OpenMachine</td>
     <td>RV32IF</td>
     <td>FP32</td>
-    <td>C=3, F=8, R=12x12, stride=1</td>
+    <td>C=3, F=8, R=12, stride=1</td>
     <td>9 C F R<sup>2</sup> = 31,104</td>
     <td>TBD</td>
     <td>TBD</td>
@@ -45,7 +45,7 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
     <td>OpenMachine</td>
     <td>RV32IF</td>
     <td>FP32</td>
-    <td>C=4, R=6x6, stride=1</td>
+    <td>C=4, R=6, stride=1</td>
     <td> 9 C R<sup>2</sup> = 1,296</td>
     <td>TBD</td>
     <td>TBD</td>
@@ -69,8 +69,8 @@ HuggingFive :raised_hand_with_fingers_splayed: is a collection of ML functions a
 
 - C : input channels
 - F : output channels (or filters), only used if F is not the same as C
-- R : input resolution
-- Q : output resolution, only used if Q is not the same as R
+- R : square root of input resolution (e.g. R=6 for image resolution of 6x6 pixels)
+- Q : square root of output resolution, only used if Q is not the same as R
 - MACs : number of fused multiply-accumulate operations required by the neural-network layer (can be used as a lower-bound for total number of ops; this number ignores possible savings from zero-padding for conv-layers)  
 
 
